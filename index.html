@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Civitas Collective | Collective ownership in sport</title>
+<meta name="description" content="Civitas Collective invests in carefully selected sports clubs and works alongside them to create exceptional long-term value.">
+<link rel="canonical" href="https://thecivitascollective.com/">
+<meta name="theme-color" content="#142B25">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Civitas Collective">
+<meta property="og:title" content="Civitas Collective | Collective ownership in sport">
+<meta property="og:description" content="We invest in carefully selected sports clubs and work alongside them to create exceptional long-term value.">
+<meta property="og:url" content="https://thecivitascollective.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Public+Sans:wght@300&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{
+  --pitch:#142B25; --chalk:#E9ECE6; --chalk-dim:#9FB0A8; --brass:#B99552; --rule:rgba(233,236,230,.16);
+  --display:"Big Shoulders Display","Oswald","Arial Narrow",Impact,sans-serif;
+  --body:"Public Sans",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --gut:clamp(16px,5vw,64px);
+  color-scheme:dark;
+}
+@media (prefers-color-scheme:dark){:root{--pitch:#0F201B;--brass:#CDAA66}}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--pitch);color:var(--chalk);font:300 17px/1.65 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.page{position:relative;min-height:100%;display:grid;grid-template-rows:auto 1fr auto;padding:calc(28px + env(safe-area-inset-top,0px)) var(--gut) calc(28px + env(safe-area-inset-bottom,0px));max-width:1240px;margin-inline:auto}
+.lines{position:fixed;inset:0;width:100%;height:100%;color:var(--chalk);opacity:.13;pointer-events:none;animation:fade 2.4s ease both}
+.mark{position:relative;font:800 22px/1 var(--display);letter-spacing:.42em}
+.mark small{display:block;font:500 9px/1 var(--mono);letter-spacing:.3em;color:var(--chalk-dim);margin-top:6px}
+main{position:relative;align-self:center;padding-block:64px}
+h1{font:900 clamp(64px,12.5vw,188px)/.92 var(--display);text-transform:uppercase;margin:0;letter-spacing:-.005em;animation:rise .9s cubic-bezier(.2,.7,.2,1) .08s both}
+h1 span{display:block}
+h1 .b{color:var(--brass)}
+.foot{margin-top:clamp(36px,5vw,64px);padding-top:28px;border-top:1px solid var(--rule);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px;animation:rise .9s cubic-bezier(.2,.7,.2,1) .18s both}
+.foot p{margin:0;color:var(--chalk-dim);font-size:clamp(18px,1.6vw,21px);max-width:30em}
+.soon{font:500 12px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--brass)}
+footer{position:relative;font:500 11px/1.5 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--chalk-dim);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+@keyframes rise{from{opacity:.001;transform:translateY(26px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:.13}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<svg class="lines" viewBox="-40 -40 1130 760" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" vector-effect="non-scaling-stroke">
+    <rect x="0" y="0" width="1050" height="680"/>
+    <line x1="525" y1="0" x2="525" y2="680"/>
+    <circle cx="525" cy="340" r="91.5"/>
+    <circle fill="currentColor" stroke="none" cx="525" cy="340" r="4"/>
+    <rect x="0" y="138.5" width="165" height="403"/>
+    <rect x="0" y="248.5" width="55" height="183"/>
+    <path d="M165 267.4 A91.5 91.5 0 0 1 165 412.6"/>
+    <rect x="885" y="138.5" width="165" height="403"/>
+    <rect x="995" y="248.5" width="55" height="183"/>
+    <path d="M885 267.4 A91.5 91.5 0 0 0 885 412.6"/>
+  </g>
+</svg>
+<div class="page">
+  <div class="mark">CIVITAS<small>COLLECTIVE</small></div>
+  <main>
+    <h1><span>Collective</span><span>ownership</span><span class="b">in sport.</span></h1>
+    <div class="foot">
+      <p>We invest in carefully selected sports clubs and work alongside them to create exceptional long-term value.</p>
+      <span class="soon">New site coming soon</span>
+    </div>
+  </main>
+  <footer>
+    <span>© 2026 Civitas Collective, LLC</span>
+    <span>This website does not constitute an offer of securities.</span>
+  </footer>
+</div>
+</body>
+</html>
