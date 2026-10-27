@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#142B25"/><text x="32" y="47" text-anchor="middle" font-family="Impact,'Arial Narrow',sans-serif" font-weight="900" font-size="44" fill="#B99552">C</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#142B25"/>
+<svg x="7" y="7" width="50" height="50" viewBox="236 154 336 304" color="#E9ECE6"><g fill="none" stroke="currentColor" stroke-width="15" stroke-linecap="butt">
+<clipPath id="fu"><polygon points="0,0 808,0 808,-56.1 0,668.3"/></clipPath><clipPath id="fl"><polygon points="0,808 808,808 808,-56.1 0,668.3"/></clipPath>
+<clipPath id="fa"><circle cx="350" cy="268" r="92"/></clipPath><clipPath id="fb"><circle cx="458" cy="346" r="92"/></clipPath>
+<path d="M437 235A92 92 0 1 0 344 360"/><path d="M371 379A92 92 0 1 0 464 254"/>
+<g clip-path="url(#fu)"><g clip-path="url(#fa)"><path d="M300 150V400M326 150V400M352 150V400"/></g></g>
+<g clip-path="url(#fl)"><g clip-path="url(#fb)"><path d="M456 220V460M482 220V460M508 220V460"/></g></g>
+<path d="M258 437L548 177"/></g></svg></svg>
